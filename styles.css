@@ -6,7 +6,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  /* outline: 1px solid red; */
 }
 body,
 h3,
@@ -78,23 +77,23 @@ button {
   line-height: 1;
 }
 .nav-login {
+  cursor: pointer;
   width: 140px;
   height: 48px;
-  background-color: #fff;
-  border: 1px solid #979797;
   border-radius: 6px;
-  cursor: pointer;
   margin-right: 32px;
+  border: 1px solid #979797;
+  background-color: #fff;
 }
 .nav-login:hover {
   background: rgba(72, 142, 170, 0.15);
 }
 .nav-register {
+  cursor: pointer;
   width: 145px;
   height: 48px;
   border-radius: 6px;
   background-color: #1c1c1c;
-  cursor: pointer;
   color: #ffffff;
 }
 .nav-register:hover {
@@ -103,49 +102,47 @@ button {
 
 .welcom {
   display: flex;
-  padding: 145px 0 196px 0;
   position: relative;
+  padding: 145px 0 196px 0;
 }
 .welcom-wrap {
   width: 722px;
   margin-right: 157px;
 }
 .welcom-text {
+  margin-bottom: 56px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 1.2;
-  margin-bottom: 56px;
 }
 .welcom-title {
+  padding-bottom: 32px;
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 80px;
   line-height: 1, 2;
-
-  padding-bottom: 32px;
 }
 .welcom-video {
+  position: relative;
   width: 880px;
   height: 522px;
-  background: linear-gradient(134.63deg, #1fabe3 1.15%, #36358c 99.34%);
   border-radius: 10px;
-  position: relative;
+  background: linear-gradient(134.63deg, #1fabe3 1.15%, #36358c 99.34%);
 }
 .welcom-img {
   position: absolute;
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
 .welcom-wrap-button {
+  cursor: pointer;
   width: 196px;
   height: 59px;
-  cursor: pointer;
   border-radius: 6px;
-  /* border-color:#dc483b ; */
   background-color: #dc483b;
   color: #fff;
 }
@@ -154,16 +151,16 @@ button {
 }
 
 .welcom-video-button {
-  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  position: absolute;
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  padding: 0;
-  cursor: pointer;
-  position: absolute;
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 .welcom-svg-play {
   fill: #fff;
@@ -184,13 +181,13 @@ button {
   padding: 201px 0 229px 0;
 }
 .partners-title {
+  margin-bottom: 55px;
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 56px;
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 55px;
 }
 .partners-list {
   display: flex;
@@ -260,13 +257,13 @@ button {
   fill: #333399;
 }
 .partners-text {
+  position: absolute;
   text-align: center;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 1.2;
-  position: absolute;
   bottom: -13px;
   color: #979797;
 }
@@ -302,13 +299,11 @@ button {
   margin: 0 auto;
 }
 .searching-item {
-  padding: 16px 33px;
-  height: 60px;
-
   cursor: pointer;
-  border: 1px solid #665f5f;
-  box-sizing: border-box;
+  height: 60px;
+  padding: 16px 33px;
   border-radius: 10px;
+  border: 1px solid #665f5f;
 }
 .searching-item:hover {
   background: linear-gradient(0deg, rgba(72, 142, 170, 0.15), rgba(72, 142, 170, 0.15));
@@ -345,29 +340,29 @@ button {
   padding-bottom: 34px;
 }
 .technology-title {
+  width: 840px;
+  margin-bottom: 56px;
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 56px;
   line-height: 1.2;
-  width: 840px;
-  margin-bottom: 56px;
 }
 .technology-text {
+  margin-bottom: 40px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 1.2;
-  margin-bottom: 40px;
 }
 .technology-item-title {
+  margin-bottom: 4px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.2;
-  margin-bottom: 4px;
 }
 .technology-item-text {
   font-family: Inter;
@@ -450,8 +445,8 @@ button {
   color: #fff;
 }
 .title-color {
-  color: #000000;
   top: 56px;
+  color: #000000;
 }
 .title-decor {
   width: 218px;
@@ -464,7 +459,6 @@ button {
   top: 156px;
   left: 32px;
   width: 400px;
-
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -476,8 +470,8 @@ footer {
   background-color: #262626;
 }
 .footer-wraper {
-  padding: 48px 0 55px 0;
   text-align: center;
+  padding: 48px 0 55px 0;
   border-bottom: 0.5px solid #979797;
 }
 .footer-logo {
@@ -501,9 +495,9 @@ footer {
   color: #ffffff;
 }
 .footer-wrap {
-  padding: 40px 0 40px 0;
   display: flex;
   justify-content: space-between;
+  padding: 40px 0 40px 0;
 }
 .footer-wrap-text {
   font-family: Roboto;
@@ -512,8 +506,8 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.25px;
-  color: #ffffff;
   opacity: 0.6;
+  color: #ffffff;
 }
 .footer-wrap-list {
   display: flex;
@@ -522,8 +516,8 @@ footer {
   margin-right: 20px;
 }
 .footer-wrap-svg {
-  fill: #ffffff;
   opacity: 0.3;
+  fill: #ffffff;
 }
 .footer-wrap-svg:hover {
   opacity: 0.6;
