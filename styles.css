@@ -381,16 +381,16 @@ button {
   background-size: 1519px 39px;
 }
 .technology-item-first:after {
-  background-image: url("/img/line/line1.png");
+  background-image: url("./img/line/line1.png");
 }
 .technology-item-two:after {
-  background-image: url("/img/line/line2.png");
+  background-image: url("./img/line/line2.png");
 }
 .technology-item-three:after {
-  background-image: url("/img/line/line3.png");
+  background-image: url("./img/line/line3.png");
 }
 .technology-item-four:after {
-  background-image: url("/img/line/line4.png");
+  background-image: url("./img/line/line4.png");
 }
 
 .advancement {
